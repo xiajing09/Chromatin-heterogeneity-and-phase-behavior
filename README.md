@@ -29,8 +29,6 @@ cd(folderin)
 d = dir( '*.tif' );
 filenumber=numel(d);
 d.name
-
-
 filename_list=cell(filenumber,1); %initialization file name list
 
 %loop through all the tif file
